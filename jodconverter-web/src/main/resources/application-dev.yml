@@ -11,11 +11,12 @@ server:
   tomcat:
     uri-encoding: UTF-8
 file:
-  dir: F:\\onlinePreview\\files\\
+  dir: D:\\onlinePreview\\files\\
 simText: txt,html,xml,java,properties,sql
 converted:
   file:
     charset: GBK
 media: mp3,mp4,flv,rmvb
+#openoffice安装目录
 office:
-  home: C:\\openOffice
+  home: C:\\Program Files (x86)\\OpenOffice 4
