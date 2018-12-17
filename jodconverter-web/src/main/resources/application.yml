@@ -1,0 +1,18 @@
+spring:
+  freemarker:
+    charset: UTF-8
+    cache: false
+    expose-request-attributes: true
+    request-context-attribute: request
+    expose-session-attributes: true
+    content-type: text/html
+    template-loader-path: classpath:/web/
+    suffix: .html
+    check-template-location: true
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: utf8
+server:
+  port: 8012

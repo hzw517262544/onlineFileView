@@ -1,0 +1,177 @@
+2018-12-17 16:11:19 -Starting FilePreviewApplication on WIN-20160919VDD with PID 13060 (F:\onlinePreview\file-online-preview\jodconverter-web\target\classes started by Administrator in F:\onlinePreview\file-online-preview)
+2018-12-17 16:11:19 -The following profiles are active: dev
+2018-12-17 16:11:19 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43bc63a3: startup date [Mon Dec 17 16:11:19 CST 2018]; root of context hierarchy
+2018-12-17 16:11:21 -Tomcat initialized with port(s): 8012 (http)
+2018-12-17 16:11:21 -Starting service [Tomcat]
+2018-12-17 16:11:21 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-12-17 16:11:22 -Initializing Spring embedded WebApplicationContext
+2018-12-17 16:11:22 -Root WebApplicationContext: initialization completed in 2895 ms
+2018-12-17 16:11:22 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-17 16:11:22 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-17 16:11:22 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-17 16:11:22 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-17 16:11:22 -Mapping filter: 'chinesePathFilter' to: [/*]
+2018-12-17 16:11:22 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-17 16:11:23 -Redisson 3.2.0
+2018-12-17 16:11:23 -1 connections initialized for /127.0.0.1:6379
+2018-12-17 16:11:23 -10 connections initialized for /127.0.0.1:6379
+2018-12-17 16:11:23 -队列处理文件转换任务启动完成 
+2018-12-17 16:11:23 -ProcessManager implementation is PureJavaProcessManager
+2018-12-17 16:11:23 -profile dir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100' already exists; deleting
+2018-12-17 16:11:24 -starting process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1' and profileDir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100'
+2018-12-17 16:11:24 -started process
+2018-12-17 16:11:26 -connected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+2018-12-17 16:11:27 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43bc63a3: startup date [Mon Dec 17 16:11:19 CST 2018]; root of context hierarchy
+2018-12-17 16:11:27 -Mapped "{[/deleteFile],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.deleteFile(java.lang.String) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:11:27 -Mapped "{[/listFiles],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.getFiles() throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:11:27 -Mapped "{[/fileUpload],methods=[POST]}" onto public java.lang.String com.hao.web.controller.FileController.fileUpload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:11:27 -Mapped "{[/],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.root()
+2018-12-17 16:11:27 -Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.go2Index()
+2018-12-17 16:11:27 -Mapped "{[/picturesPreview],methods=[POST]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:11:27 -Mapped "{[/picturesPreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:11:27 -Mapped "{[/addTask],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.addQueueTask(java.lang.String)
+2018-12-17 16:11:27 -Mapped "{[/getCorsFile],methods=[GET]}" onto public void com.hao.web.controller.OnlinePreviewController.getCorsFile(java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:11:27 -Mapped "{[/onlinePreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.onlinePreview(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)
+2018-12-17 16:11:27 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-17 16:11:27 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:11:27 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:11:27 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:11:27 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:11:28 -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-12-17 16:11:28 -Registering beans for JMX exposure on startup
+2018-12-17 16:11:28 -Tomcat started on port(s): 8012 (http)
+2018-12-17 16:11:28 -Started FilePreviewApplication in 10.68 seconds (JVM running for 12.883)
+2018-12-17 16:12:45 -Starting FilePreviewApplication on WIN-20160919VDD with PID 13952 (F:\onlinePreview\file-online-preview\jodconverter-web\target\classes started by Administrator in F:\onlinePreview\file-online-preview)
+2018-12-17 16:12:45 -The following profiles are active: dev
+2018-12-17 16:12:45 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cdc4c27: startup date [Mon Dec 17 16:12:45 CST 2018]; root of context hierarchy
+2018-12-17 16:12:48 -Tomcat initialized with port(s): 8012 (http)
+2018-12-17 16:12:48 -Starting service [Tomcat]
+2018-12-17 16:12:48 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-12-17 16:12:49 -Initializing Spring embedded WebApplicationContext
+2018-12-17 16:12:49 -Root WebApplicationContext: initialization completed in 3496 ms
+2018-12-17 16:12:49 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-17 16:12:49 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-17 16:12:49 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-17 16:12:49 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-17 16:12:49 -Mapping filter: 'chinesePathFilter' to: [/*]
+2018-12-17 16:12:49 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-17 16:12:50 -Redisson 3.2.0
+2018-12-17 16:12:50 -1 connections initialized for /127.0.0.1:6379
+2018-12-17 16:12:50 -10 connections initialized for /127.0.0.1:6379
+2018-12-17 16:12:50 -队列处理文件转换任务启动完成 
+2018-12-17 16:12:50 -ProcessManager implementation is PureJavaProcessManager
+2018-12-17 16:12:50 -profile dir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100' already exists; deleting
+2018-12-17 16:12:51 -starting process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1' and profileDir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100'
+2018-12-17 16:12:51 -started process
+2018-12-17 16:12:53 -connected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+2018-12-17 16:12:54 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cdc4c27: startup date [Mon Dec 17 16:12:45 CST 2018]; root of context hierarchy
+2018-12-17 16:12:54 -Mapped "{[/fileUpload],methods=[POST]}" onto public java.lang.String com.hao.web.controller.FileController.fileUpload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:12:54 -Mapped "{[/deleteFile],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.deleteFile(java.lang.String) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:12:54 -Mapped "{[/listFiles],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.getFiles() throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:12:54 -Mapped "{[/],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.root()
+2018-12-17 16:12:54 -Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.go2Index()
+2018-12-17 16:12:54 -Mapped "{[/onlinePreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.onlinePreview(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)
+2018-12-17 16:12:54 -Mapped "{[/picturesPreview],methods=[POST]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:12:54 -Mapped "{[/picturesPreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:12:54 -Mapped "{[/addTask],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.addQueueTask(java.lang.String)
+2018-12-17 16:12:54 -Mapped "{[/getCorsFile],methods=[GET]}" onto public void com.hao.web.controller.OnlinePreviewController.getCorsFile(java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:12:54 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-17 16:12:54 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:12:54 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:12:54 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:12:55 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:12:55 -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-12-17 16:12:56 -Registering beans for JMX exposure on startup
+2018-12-17 16:12:56 -Tomcat started on port(s): 8012 (http)
+2018-12-17 16:12:56 -Started FilePreviewApplication in 12.302 seconds (JVM running for 15.072)
+2018-12-17 16:15:10 -Starting FilePreviewApplication on WIN-20160919VDD with PID 11844 (F:\onlinePreview\file-online-preview\jodconverter-web\target\classes started by Administrator in F:\onlinePreview\file-online-preview)
+2018-12-17 16:15:10 -The following profiles are active: dev
+2018-12-17 16:15:10 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ebf0f36: startup date [Mon Dec 17 16:15:10 CST 2018]; root of context hierarchy
+2018-12-17 16:15:14 -Tomcat initialized with port(s): 8012 (http)
+2018-12-17 16:15:14 -Starting service [Tomcat]
+2018-12-17 16:15:14 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-12-17 16:15:14 -Initializing Spring embedded WebApplicationContext
+2018-12-17 16:15:14 -Root WebApplicationContext: initialization completed in 3830 ms
+2018-12-17 16:15:15 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-17 16:15:15 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-17 16:15:15 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-17 16:15:15 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-17 16:15:15 -Mapping filter: 'chinesePathFilter' to: [/*]
+2018-12-17 16:15:15 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-17 16:15:16 -Redisson 3.2.0
+2018-12-17 16:15:16 -10 connections initialized for /127.0.0.1:6379
+2018-12-17 16:15:16 -1 connections initialized for /127.0.0.1:6379
+2018-12-17 16:15:16 -队列处理文件转换任务启动完成 
+2018-12-17 16:15:16 -ProcessManager implementation is PureJavaProcessManager
+2018-12-17 16:15:16 -profile dir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100' already exists; deleting
+2018-12-17 16:15:17 -starting process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1' and profileDir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100'
+2018-12-17 16:15:17 -started process
+2018-12-17 16:15:19 -connected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+2018-12-17 16:15:20 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ebf0f36: startup date [Mon Dec 17 16:15:10 CST 2018]; root of context hierarchy
+2018-12-17 16:15:20 -Mapped "{[/fileUpload],methods=[POST]}" onto public java.lang.String com.hao.web.controller.FileController.fileUpload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:15:20 -Mapped "{[/deleteFile],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.deleteFile(java.lang.String) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:15:20 -Mapped "{[/listFiles],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.getFiles() throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:15:20 -Mapped "{[/],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.root()
+2018-12-17 16:15:20 -Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.go2Index()
+2018-12-17 16:15:20 -Mapped "{[/onlinePreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.onlinePreview(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)
+2018-12-17 16:15:20 -Mapped "{[/picturesPreview],methods=[POST]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:15:20 -Mapped "{[/picturesPreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:15:20 -Mapped "{[/addTask],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.addQueueTask(java.lang.String)
+2018-12-17 16:15:20 -Mapped "{[/getCorsFile],methods=[GET]}" onto public void com.hao.web.controller.OnlinePreviewController.getCorsFile(java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:15:20 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-17 16:15:20 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:15:20 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:15:20 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:15:21 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:15:21 -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-12-17 16:15:22 -Registering beans for JMX exposure on startup
+2018-12-17 16:15:22 -Tomcat started on port(s): 8012 (http)
+2018-12-17 16:15:22 -Started FilePreviewApplication in 12.572 seconds (JVM running for 15.451)
+2018-12-17 16:16:02 -Starting FilePreviewApplication on WIN-20160919VDD with PID 11412 (F:\onlinePreview\file-online-preview\jodconverter-web\target\classes started by Administrator in F:\onlinePreview\file-online-preview)
+2018-12-17 16:16:02 -The following profiles are active: dev
+2018-12-17 16:16:02 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2807bdeb: startup date [Mon Dec 17 16:16:02 CST 2018]; root of context hierarchy
+2018-12-17 16:16:05 -Tomcat initialized with port(s): 8012 (http)
+2018-12-17 16:16:05 -Starting service [Tomcat]
+2018-12-17 16:16:05 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-12-17 16:16:05 -Initializing Spring embedded WebApplicationContext
+2018-12-17 16:16:05 -Root WebApplicationContext: initialization completed in 3162 ms
+2018-12-17 16:16:06 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-17 16:16:06 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-17 16:16:06 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-17 16:16:06 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-17 16:16:06 -Mapping filter: 'chinesePathFilter' to: [/*]
+2018-12-17 16:16:06 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-17 16:16:07 -Redisson 3.2.0
+2018-12-17 16:16:07 -1 connections initialized for /127.0.0.1:6379
+2018-12-17 16:16:07 -10 connections initialized for /127.0.0.1:6379
+2018-12-17 16:16:07 -队列处理文件转换任务启动完成 
+2018-12-17 16:16:08 -ProcessManager implementation is PureJavaProcessManager
+2018-12-17 16:16:08 -profile dir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100' already exists; deleting
+2018-12-17 16:16:08 -starting process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1' and profileDir 'C:\Users\ADMINI~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100'
+2018-12-17 16:16:08 -started process
+2018-12-17 16:16:10 -connected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+2018-12-17 16:16:11 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2807bdeb: startup date [Mon Dec 17 16:16:02 CST 2018]; root of context hierarchy
+2018-12-17 16:16:11 -Mapped "{[/fileUpload],methods=[POST]}" onto public java.lang.String com.hao.web.controller.FileController.fileUpload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:16:12 -Mapped "{[/deleteFile],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.deleteFile(java.lang.String) throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:16:12 -Mapped "{[/listFiles],methods=[GET]}" onto public java.lang.String com.hao.web.controller.FileController.getFiles() throws com.fasterxml.jackson.core.JsonProcessingException
+2018-12-17 16:16:12 -Mapped "{[/],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.root()
+2018-12-17 16:16:12 -Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.hao.web.controller.IndexController.go2Index()
+2018-12-17 16:16:12 -Mapped "{[/onlinePreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.onlinePreview(java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)
+2018-12-17 16:16:12 -Mapped "{[/picturesPreview],methods=[POST]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:16:12 -Mapped "{[/picturesPreview],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.picturesPreview(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest) throws java.io.UnsupportedEncodingException
+2018-12-17 16:16:12 -Mapped "{[/addTask],methods=[GET]}" onto public java.lang.String com.hao.web.controller.OnlinePreviewController.addQueueTask(java.lang.String)
+2018-12-17 16:16:12 -Mapped "{[/getCorsFile],methods=[GET]}" onto public void com.hao.web.controller.OnlinePreviewController.getCorsFile(java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:16:12 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-17 16:16:12 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-17 16:16:12 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:16:12 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:16:12 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 16:16:13 -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-12-17 16:16:13 -Registering beans for JMX exposure on startup
+2018-12-17 16:16:13 -Tomcat started on port(s): 8012 (http)
+2018-12-17 16:16:13 -Started FilePreviewApplication in 12.613 seconds (JVM running for 15.377)
+2018-12-17 16:16:41 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-17 16:16:41 -FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-17 16:16:41 -FrameworkServlet 'dispatcherServlet': initialization completed in 67 ms
+2018-12-17 17:10:18 -disconnected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+2018-12-17 17:10:18 -connection lost unexpectedly; attempting restart

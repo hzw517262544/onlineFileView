@@ -1,0 +1,21 @@
+spring:
+  http:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${file.dir}
+  redisson:
+    address: 127.0.0.1:6379
+server:
+  tomcat:
+    uri-encoding: UTF-8
+file:
+  dir: F:\\onlinePreview\\files\\
+simText: txt,html,xml,java,properties,sql
+converted:
+  file:
+    charset: GBK
+media: mp3,mp4,flv,rmvb
+office:
+  home: C:\\openOffice
